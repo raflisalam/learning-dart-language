@@ -1,0 +1,13 @@
+import 'cat.dart';
+
+void main() {
+  var dicodingCat = Cat('Grayson', 2, 2.2, 'Gray');
+
+  dicodingCat.walk();
+  dicodingCat.eat();
+
+  print(dicodingCat.weight);
+}
+
+//Inheritance constructor
+//Cat(String name, int age, double weight, this.furColor) : super(name, age, weight);
